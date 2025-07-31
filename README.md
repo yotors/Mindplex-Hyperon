@@ -13,6 +13,19 @@ Key features include:
 
 Mindplex Hyperon sets a new standard for recommendation systems by focusing on transparency, explainability, and robust knowledge graph integration. The project is designed for extensibility, allowing researchers and developers to build upon its foundation for a wide range of AI and data-driven applications.
 
+## This Branch
+
+This branch is dedicated to the experimental implementation of neural-based recommendation systems. The focus is on exploring, prototyping, and evaluating state-of-the-art neural network architectures and techniques within the Mindplex Hyperon framework.
+
+**Guidelines for contributors:**
+- Select a relevant neural recommendation model or research paper for implementation.
+- Document the chosen model or paper, your implementation approach, and analysis in the `docs` folder. Include a summary, key algorithms or architectures, and details on integration with Mindplex Hyperon.
+- Create a dedicated folder with the paper's name for your implementation in the root directory.
+- Ensure your code is modular and adheres to the project's contribution standards.
+- Provide clear explanations and comments to support understanding and future development.
+
+This branch is intended as a collaborative environment for advancing neural recommendation research and experimentation, supporting the development of practical, explainable AI systems.
+
 ## Testing
 
 Each feature has associated test cases located in the `features/tests` directory. The test files are named with a `-test` suffix to facilitate CI/CD recognition. 
