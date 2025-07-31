@@ -12,7 +12,18 @@ Key features include:
 - Support for logic-based graph processing and advanced analytics
 
 Mindplex Hyperon sets a new standard for recommendation systems by focusing on transparency, explainability, and robust knowledge graph integration. The project is designed for extensibility, allowing researchers and developers to build upon its foundation for a wide range of AI and data-driven applications.
+## This Branch
 
+This branch is dedicated to the implementation and experimentation of symbolic approaches for graph-based recommendation systems. The focus is on leveraging symbolic reasoning, logic-based methods, and knowledge graph techniques within the Mindplex Hyperon framework.
+
+**Guidelines for contributors:**
+- Select a symbolic, graph-based recommendation method or algorithm for implementation.
+- Document the selected approach, your implementation details, and analysis in the `docs` folder. Include a summary of the method, core algorithms or logic, and how it is adapted or integrated into Mindplex Hyperon.
+- Create a dedicated folder named after the symbolic the algorithm you are implementing, in the root directory for your implementation.
+- Ensure your code is modular and adheres to the project's contribution standards.
+- Provide clear explanations and comments to support understanding and future enhancements.
+
+This branch is a collaborative environment for advancing symbolic AI research and practical applications, supporting transparent and explainable recommendation systems.
 ## Testing
 
 Each feature has associated test cases located in the `features/tests` directory. The test files are named with a `-test` suffix to facilitate CI/CD recognition. 
